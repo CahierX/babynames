@@ -1,29 +1,37 @@
 
-#### Ó¢ÎÄÃû
-Éç»á±£ÕÏ¹ÜÀí¾ÖµÄÓ¤¶ùÐÕÃûÊý¾Ý·ÖÎö
-#### Êý¾Ý
-Ê×ÏÈ£¬ÄúÐèÒª´ÓÉç»á°²È«¹ÜÀí¾Ö»ñÈ¡Ô­Ê¼Êý¾Ý¡£²¢½âÑ¹¡£ÕâÊÇÏÂÔØµØÖ·[Ó¢ÎÄÃûÊý¾Ý](http://www.ssa.gov/OACT/babynames/names.zip)£¬ÒòÎªÎª¹úÍâµØÖ·£¬Ðè¿ÆÑ§ÉÏÍøÏÂÔØ¡£
-#### Èç¹ûÊ¹ÓÃ
-´ËÎªC# WebApi°æ±¾£¬Äú½öÐèÏÂÔØÔËÐÐ¼´¿É
-Node.js½Å±¾°æ±¾´«ËÍÃÅ£º[babynames](https://github.com/TimeMagazine/babynames)
-ÔËÐÐ³ÌÐòºóÔÚä¯ÀÀÆ÷ÉÏÊäÈë£º[http://localhost:55651/api/Babynames/index](http://localhost:55651/api/Babynames/index)
-##### ²ÎÊýÏê½â£º
-**store£º** Ä¬ÈÏÎªtrue£¬ÈôÖ÷¶¯´«flaseÖµ£¬Ôò³ÌÐò»áÖ´ÐÐ´Ótxx¡ª¡ªjsonµÄ¹ý³Ì£¬È»ºóÉú³Éjson¸ñÊ½ÎÄ¼þ£¬ÒòÎªtxtÄÚÈÝÓÉ200wÐÐ£¬ËùÓÐÔËÐÐÍê´óÔ¼ÐèÒª»¨·Ñ40·ÖÖÓ¡£**Ç¿ÁÒ½¨Òé**Éú³ÉÒ»·ÝjsonÎÄ¼þºóÖ®ºó²Ù×÷²ÉÓÃstroe=falseÄ£Ê½£¬´ËÄ£Ê½¼´´Ó±¾µØÉú³ÉµÄjsonÖÐ²Ù×÷£¬¼«´óµØ½â¾öÁË²Ù×÷Ê±¼ä¡£`store=false`
-**phonemes£º** Ä¬ÈÏÎªtrue£¬µ±ÎªtrueÊ±ÔòÉú³ÉphonemesÎÄ¼þ£¬ÎÄ¼þ´æ´¢ÔÚ/roster/ÏÂ¡£`phonemes=false`
-**name£º** Ö»½ØÈ¡Ö¸¶¨µÄnameÉú³ÉjsonÎÄ¼þ¡£**×¢Òâ£º** ´Ë²ÎÊý¾¡ÔÚstore=falseÊ±ÓÐÐ§¡£`name=emma`
-**start£º** Éú³ÉjsonµÄ¿ªÊ¼ÈÕÆÚ£¬Ä¬ÈÏÎª1980¡£`start=1980`
-**end£º** Éú³ÉjsonµÄ½ØÖ¹ÈÕÆÚ£¬Ä¬ÈÏÎª£º2017¡£`end=2017`
-**cutoff£º** »ñÈ¡ÖÁÉÙ³öÀ´ÁË¶àÉÙÄêµÄÃû×Ö£¬Ä¬ÈÏ²»É¸Ñ¡ `cutoff=20`
-**min£º** »ñÈ¡ÔÚÒ»ÄêÄÚÖÁÉÙ³öÏÖ¶àÉÙ´ÎµÄÃû×Ö£¬Ä¬ÈÏ²»É¸Ñ¡ `min=10`
-Ö»´«µÝÒ»¸ö²ÎÊýÊ±£¬ÓÃ **?** ½ÓÉÏ²ÎÊý `http://localhost:55651/api/Babynames/index?store=true`
-ÈôÐè´«µÝ¶à¸ö²ÎÊý£¬ÓÃ **&**½ÓÉÏ²ÎÊý `http://localhost:55651/api/Babynames/index?store=true&phonemes=false`
+#### è‹±æ–‡å
+ç¤¾ä¼šä¿éšœç®¡ç†å±€çš„å©´å„¿å§“åæ•°æ®åˆ†æž
+#### æ•°æ®
+é¦–å…ˆï¼Œæ‚¨éœ€è¦ä»Žç¤¾ä¼šå®‰å…¨ç®¡ç†å±€èŽ·å–åŽŸå§‹æ•°æ®ã€‚å¹¶è§£åŽ‹ã€‚è¿™æ˜¯ä¸‹è½½åœ°å€[è‹±æ–‡åæ•°æ®](http://www.ssa.gov/OACT/babynames/names.zip)ï¼Œå› ä¸ºä¸ºå›½å¤–åœ°å€ï¼Œéœ€ç§‘å­¦ä¸Šç½‘ä¸‹è½½ã€‚
+#### å¦‚æžœä½¿ç”¨
+æ­¤ä¸ºC# WebApiç‰ˆæœ¬ï¼Œæ‚¨ä»…éœ€ä¸‹è½½è¿è¡Œå³å¯
+Node.jsè„šæœ¬ç‰ˆæœ¬ä¼ é€é—¨ï¼š[babynames](https://github.com/TimeMagazine/babynames)
 
-#### ½¨Òé
-ÒòÎª´ÓÉç»á±£ÕÏ¹ÜÀí¾ÖÏÂÔØµÄÊý¾ÝÒ»ÄêÖ»»á¸Ä±äÒ»´Î£¬ËùÓÐÔÚµÚÒ»´ÎÔËÐÐÊ±½¨ÒéÊ¹ÓÃ `http://localhost:55651/api/Babynames/index?store=false`ÍêÕûÔËÐÐÒ»´ÎÉú³ÉflatTempÎÄ¼þºÍÊý¾Ý£¬²¢½«´ËÎÄ¼þ¸üÃûÎªflat£¬Ö®ºóÈçÐè´«µÝÆäËû²ÎÊýÈçstart¡¢end¡¢cutoffµÈÖ»Ðè`http://localhost:55651/api/Babynames/index?store=ture&cutoff=20` ¼´¿É£¬¿É´ó·ù¶È½ÚÔ¼Ê±¼ä¡£
+è¿è¡Œç¨‹åºåŽåœ¨æµè§ˆå™¨ä¸Šè¾“å…¥ï¼š[http://localhost:55651/api/Babynames/index](http://localhost:55651/api/Babynames/index)
+##### å‚æ•°è¯¦è§£ï¼š
+**storeï¼š** é»˜è®¤ä¸ºtrueï¼Œè‹¥ä¸»åŠ¨ä¼ flaseå€¼ï¼Œåˆ™ç¨‹åºä¼šæ‰§è¡Œä»Žtxxâ€”â€”jsonçš„è¿‡ç¨‹ï¼Œç„¶åŽç”Ÿæˆjsonæ ¼å¼æ–‡ä»¶ï¼Œå› ä¸ºtxtå†…å®¹ç”±200wè¡Œï¼Œæ‰€æœ‰è¿è¡Œå®Œå¤§çº¦éœ€è¦èŠ±è´¹40åˆ†é’Ÿã€‚**å¼ºçƒˆå»ºè®®**ç”Ÿæˆä¸€ä»½jsonæ–‡ä»¶åŽä¹‹åŽæ“ä½œé‡‡ç”¨stroe=falseæ¨¡å¼ï¼Œæ­¤æ¨¡å¼å³ä»Žæœ¬åœ°ç”Ÿæˆçš„jsonä¸­æ“ä½œï¼Œæžå¤§åœ°è§£å†³äº†æ“ä½œæ—¶é—´ã€‚`store=false`
+**phonemesï¼š** é»˜è®¤ä¸ºtrueï¼Œå½“ä¸ºtrueæ—¶åˆ™ç”Ÿæˆphonemesæ–‡ä»¶ï¼Œæ–‡ä»¶å­˜å‚¨åœ¨/roster/ä¸‹ã€‚`phonemes=false`
 
-#### Ã¿Äê³öÉúµÄÓ¤¶ù×ÜÊý
-¸ù¾ÝSSAextra/totals.jsonÎÄ¼þ£¬ÆäÖÐ°üº¬Ã¿Äê³öÉúµÄÓ¤¶ù×ÜÊý£¨»òÖÁÉÙÊÇ·¢²¼SSNµÄÓ¤¶ù£©µÄÊý¾Ý¡£Õâ¸öÎÄ¼þÔÚ¼ÆËãÃ¿¸öÓ¢ÎÄÃûµ±Äê³öÏÖµÄ°Ù·Ö±ÈÖÐÓÃµ½£¬ÏÂÔØµØÖ·£º[totals](http://www.ssa.gov/oact/babynames/numberUSbirths.html) 
-###### ¸ñÊ½ÈçÏÂ£º
+**nameï¼š** åªæˆªå–æŒ‡å®šçš„nameç”Ÿæˆjsonæ–‡ä»¶ã€‚**æ³¨æ„ï¼š** æ­¤å‚æ•°å°½åœ¨store=falseæ—¶æœ‰æ•ˆã€‚`name=emma`
+
+**startï¼š** ç”Ÿæˆjsonçš„å¼€å§‹æ—¥æœŸï¼Œé»˜è®¤ä¸º1980ã€‚`start=1980`
+
+**endï¼š** ç”Ÿæˆjsonçš„æˆªæ­¢æ—¥æœŸï¼Œé»˜è®¤ä¸ºï¼š2017ã€‚`end=2017`
+
+**cutoffï¼š** èŽ·å–è‡³å°‘å‡ºæ¥äº†å¤šå°‘å¹´çš„åå­—ï¼Œé»˜è®¤ä¸ç­›é€‰ `cutoff=20`
+
+**minï¼š** èŽ·å–åœ¨ä¸€å¹´å†…è‡³å°‘å‡ºçŽ°å¤šå°‘æ¬¡çš„åå­—ï¼Œé»˜è®¤ä¸ç­›é€‰ `min=10`
+
+åªä¼ é€’ä¸€ä¸ªå‚æ•°æ—¶ï¼Œç”¨ **?** æŽ¥ä¸Šå‚æ•° `http://localhost:55651/api/Babynames/index?store=true`
+
+è‹¥éœ€ä¼ é€’å¤šä¸ªå‚æ•°ï¼Œç”¨ **&**æŽ¥ä¸Šå‚æ•° `http://localhost:55651/api/Babynames/index?store=true&phonemes=false`
+
+#### å»ºè®®
+å› ä¸ºä»Žç¤¾ä¼šä¿éšœç®¡ç†å±€ä¸‹è½½çš„æ•°æ®ä¸€å¹´åªä¼šæ”¹å˜ä¸€æ¬¡ï¼Œæ‰€æœ‰åœ¨ç¬¬ä¸€æ¬¡è¿è¡Œæ—¶å»ºè®®ä½¿ç”¨ `http://localhost:55651/api/Babynames/index?store=false`å®Œæ•´è¿è¡Œä¸€æ¬¡ç”ŸæˆflatTempæ–‡ä»¶å’Œæ•°æ®ï¼Œå¹¶å°†æ­¤æ–‡ä»¶æ›´åä¸ºflatï¼Œä¹‹åŽå¦‚éœ€ä¼ é€’å…¶ä»–å‚æ•°å¦‚startã€endã€cutoffç­‰åªéœ€`http://localhost:55651/api/Babynames/index?store=ture&cutoff=20` å³å¯ï¼Œå¯å¤§å¹…åº¦èŠ‚çº¦æ—¶é—´ã€‚
+
+#### æ¯å¹´å‡ºç”Ÿçš„å©´å„¿æ€»æ•°
+æ ¹æ®SSAextra/totals.jsonæ–‡ä»¶ï¼Œå…¶ä¸­åŒ…å«æ¯å¹´å‡ºç”Ÿçš„å©´å„¿æ€»æ•°ï¼ˆæˆ–è‡³å°‘æ˜¯å‘å¸ƒSSNçš„å©´å„¿ï¼‰çš„æ•°æ®ã€‚è¿™ä¸ªæ–‡ä»¶åœ¨è®¡ç®—æ¯ä¸ªè‹±æ–‡åå½“å¹´å‡ºçŽ°çš„ç™¾åˆ†æ¯”ä¸­ç”¨åˆ°ï¼Œä¸‹è½½åœ°å€ï¼š[totals](http://www.ssa.gov/oact/babynames/numberUSbirths.html) 
+###### æ ¼å¼å¦‚ä¸‹ï¼š
 ```
  "1880": {
     "year": 1880,
@@ -44,11 +52,11 @@ Node.js½Å±¾°æ±¾´«ËÍÃÅ£º[babynames](https://github.com/TimeMagazine/babynames)
     "both": 237726
   },
 ```
-###### ¶ÔÓ¦²ÎÊý½âÎö
-Õâ¸öÎÄ¼þºÜºÃÀí½â£¬ÎÒÃÇÄÃ1880À´×öÎªÀý×Ó£¬yearÊÇÄê·Ý£¬MÎª1880Äê³öÏÖµÄËùÓÐÓ¢ÎÄÃûÖÐÄÐÐÔµÄÃû×ÖÊýÁ¿£¬FÔòÎªÅ®ÐÔ£¬bothÎªÄÐÅ®×ÜºÍ£¬¼´1880Äê³öÏÖµÄËùÓÐÓ¢ÎÄÃû£¨Ó¦¸ÃÃ»ÓÐÖÐÐÔÈË°É~£©¡£ËùÓÐÕâ¸öÎÄ¼þµÄ×÷ÓÃ¿ÉÏë¶øÖª£¬µ±Ó¢ÎÄÃûÃ¿Ò»Äê³öÏÖµÄ´ÎÊý³ýÕâ¸ö´ÎÊý¾ÍµÃµ½ÁËºóÃæÐèÒªµÄpercentsÖµ¡£
+###### å¯¹åº”å‚æ•°è§£æž
+è¿™ä¸ªæ–‡ä»¶å¾ˆå¥½ç†è§£ï¼Œæˆ‘ä»¬æ‹¿1880æ¥åšä¸ºä¾‹å­ï¼Œyearæ˜¯å¹´ä»½ï¼ŒMä¸º1880å¹´å‡ºçŽ°çš„æ‰€æœ‰è‹±æ–‡åä¸­ç”·æ€§çš„åå­—æ•°é‡ï¼ŒFåˆ™ä¸ºå¥³æ€§ï¼Œbothä¸ºç”·å¥³æ€»å’Œï¼Œå³1880å¹´å‡ºçŽ°çš„æ‰€æœ‰è‹±æ–‡åï¼ˆåº”è¯¥æ²¡æœ‰ä¸­æ€§äººå§~ï¼‰ã€‚æ‰€æœ‰è¿™ä¸ªæ–‡ä»¶çš„ä½œç”¨å¯æƒ³è€ŒçŸ¥ï¼Œå½“è‹±æ–‡åæ¯ä¸€å¹´å‡ºçŽ°çš„æ¬¡æ•°é™¤è¿™ä¸ªæ¬¡æ•°å°±å¾—åˆ°äº†åŽé¢éœ€è¦çš„percentså€¼ã€‚
 #### TXT -> JSON
-ÔÚµÚÈý²½ÏÂÔØµÄÊý¾Ý°ü½âÑ¹ºó·¢ÏÖÊý¾ÝÃûÎªyob[year].txt£¬Èç£ºyob1880.txt£¬ÎÒÃÇµÚÒ»²¿ÊÇ½«ÕâÀïµÄËùÓÐÎÄ¼þ×ª»»Îªjson¸ñÊ½ÎÄ¼þ¡£
-###### TXTÊý¾Ý¸ñÊ½
+åœ¨ç¬¬ä¸‰æ­¥ä¸‹è½½çš„æ•°æ®åŒ…è§£åŽ‹åŽå‘çŽ°æ•°æ®åä¸ºyob[year].txtï¼Œå¦‚ï¼šyob1880.txtï¼Œæˆ‘ä»¬ç¬¬ä¸€éƒ¨æ˜¯å°†è¿™é‡Œçš„æ‰€æœ‰æ–‡ä»¶è½¬æ¢ä¸ºjsonæ ¼å¼æ–‡ä»¶ã€‚
+###### TXTæ•°æ®æ ¼å¼
 ```
 Mary,F,7065
 Anna,F,2604
@@ -64,9 +72,9 @@ Annie,F,1258
 Clara,F,1226
 Ella,F,1156
 ```
-###### TXTÎÄ¼þ·ÖÎö
-TXTÎÄ¼þºÜ¼òµ¥£¬µÚÒ»ÁÐÎªÓ¢ÎÄÃû£¬µÚ¶þÁÐÎªÐÕÃûËõÐ´£¬µÚÈýÁÐÎªÕâ¸öÃû³ÆÔÚÎÄ¼þÃûÄÇÄê£¨ÎÄ¼þÃûÒÔÄê·ÝÃüÃû£©³öÏÖµÄ´ÎÊý¡£
-###### ×ª»»ºóµÄjson¸ñÊ½
+###### TXTæ–‡ä»¶åˆ†æž
+TXTæ–‡ä»¶å¾ˆç®€å•ï¼Œç¬¬ä¸€åˆ—ä¸ºè‹±æ–‡åï¼Œç¬¬äºŒåˆ—ä¸ºå§“åç¼©å†™ï¼Œç¬¬ä¸‰åˆ—ä¸ºè¿™ä¸ªåç§°åœ¨æ–‡ä»¶åé‚£å¹´ï¼ˆæ–‡ä»¶åä»¥å¹´ä»½å‘½åï¼‰å‡ºçŽ°çš„æ¬¡æ•°ã€‚
+###### è½¬æ¢åŽçš„jsonæ ¼å¼
 ```
 {
   "_id": "Aaban-M",
@@ -99,27 +107,31 @@ TXTÎÄ¼þºÜ¼òµ¥£¬µÚÒ»ÁÐÎªÓ¢ÎÄÃû£¬µÚ¶þÁÐÎªÐÕÃûËõÐ´£¬µÚÈýÁÐÎªÕâ¸öÃû³ÆÔÚÎÄ¼þÃûÄÇÄê£¨Î
   "normalized": {}
 }
 ```
-×ª»»ºóµÄjsonÎÄ¼þ´¢´æÔÚflatÎÄ¼þ¼ÓÏÂ£¬ÎÄ¼þÃüÃû·½Ê½ÎªÓ¢ÎÄÃû-ÐÕÃû.json£¬Èç£ºAaban-M.json
-###### jsonÎÄ¼þ·ÖÎö
-**_id**£ºÎÄ¼þÃû
-**name**£ºÓ¢ÎÄÃû
-**gender**£ºÐÔ±ðËõÐ´
-**values**£º´ËÓ¢ÎÄÃûÔÚkeyÄê·Ý¶ÔÓ¦³öÏÖµÄ´ÎÊý
-**percents**£º´ËÓ¢ÎÄÃûÔÚkeyÄê·Ý¶ÔÓ¦³öÏÖµÄ°Ù·Ö±È¡£Õâ¸öÖµÊÇÍ¨¹ýÇ°Ãæ½éÉÜµÄtotalsÎÄ¼þÀïÃæµÄÊý¾ÝÇó³öÀ´µÄ
+è½¬æ¢åŽçš„jsonæ–‡ä»¶å‚¨å­˜åœ¨flatæ–‡ä»¶åŠ ä¸‹ï¼Œæ–‡ä»¶å‘½åæ–¹å¼ä¸ºè‹±æ–‡å-å§“å.jsonï¼Œå¦‚ï¼šAaban-M.json
+###### jsonæ–‡ä»¶åˆ†æž
+**_id**ï¼šæ–‡ä»¶å
 
-#### Éú³Éroster.jsonÎÄ¼þ
+**name**ï¼šè‹±æ–‡å
+
+**gender**ï¼šæ€§åˆ«ç¼©å†™
+
+**values**ï¼šæ­¤è‹±æ–‡ååœ¨keyå¹´ä»½å¯¹åº”å‡ºçŽ°çš„æ¬¡æ•°
+
+**percents**ï¼šæ­¤è‹±æ–‡ååœ¨keyå¹´ä»½å¯¹åº”å‡ºçŽ°çš„ç™¾åˆ†æ¯”ã€‚è¿™ä¸ªå€¼æ˜¯é€šè¿‡å‰é¢ä»‹ç»çš„totalsæ–‡ä»¶é‡Œé¢çš„æ•°æ®æ±‚å‡ºæ¥çš„
+
+#### ç”Ÿæˆroster.jsonæ–‡ä»¶
 ```
 ["Mary-F","Anna-F","Emma-F","Elizabeth-F","Minnie-F","Margaret-F","Ida-F","Alice-F"]
 ```
-´ËÎÄ¼þ°ü»»ËùÓÐÓ¢ÎÄÃû£¬Äã¿ÉÄÜ»á·¢ÏÖÕâÀïµÄÃ¿¸öÓ¢ÎÄÃûµÄÃüÃû·½Ê½¸ÕºÃ¸úÉÏÃæËµµ½µÄ_idÒ»Ñù£¬Ò²ºÍÉÏÃæµÄjsonÎÄ¼þÃûÒ»Ñù¡£
+æ­¤æ–‡ä»¶åŒ…æ¢æ‰€æœ‰è‹±æ–‡åï¼Œä½ å¯èƒ½ä¼šå‘çŽ°è¿™é‡Œçš„æ¯ä¸ªè‹±æ–‡åçš„å‘½åæ–¹å¼åˆšå¥½è·Ÿä¸Šé¢è¯´åˆ°çš„_idä¸€æ ·ï¼Œä¹Ÿå’Œä¸Šé¢çš„jsonæ–‡ä»¶åä¸€æ ·ã€‚
 
-#### Éú³Éroster_short.jsonÎÄ¼þ
+#### ç”Ÿæˆroster_short.jsonæ–‡ä»¶
 ```
 ["Mary (F)","Anna (F)","Emma (F)","Elizabeth (F)","Minnie (F)","Margaret (F)"]
 ```
-Õâ¸öÎÄ¼þÀïÃæµÄÃû×ÖÎª£º´ËÃû×Ö¼´ÓÐÄÐÉúÒ²ÓÐÅ®Éú
+è¿™ä¸ªæ–‡ä»¶é‡Œé¢çš„åå­—ä¸ºï¼šæ­¤åå­—å³æœ‰ç”·ç”Ÿä¹Ÿæœ‰å¥³ç”Ÿ
 
-#### Éú³Éphonemes.jsonÎÄ¼þ
+#### ç”Ÿæˆphonemes.jsonæ–‡ä»¶
 ```
 [
     {
@@ -158,9 +170,12 @@ TXTÎÄ¼þºÜ¼òµ¥£¬µÚÒ»ÁÐÎªÓ¢ÎÄÃû£¬µÚ¶þÁÐÎªÐÕÃûËõÐ´£¬µÚÈýÁÐÎªÕâ¸öÃû³ÆÔÚÎÄ¼þÃûÄÇÄê£¨Î
     }
 ]
 ```
-Ê¡ÂÔ²¿·ÖÊý¾Ý£¬´ËÎÄ¼þÊÇ¸ù¾ÝÒôËØÉú³É¶ÔÓ¦µÄÓ¢ÎÄÃûºÍ¶ÔÓ¦µÄ³öÏÖÆÀÂÊ
-**phoneme**£ºÒôËØÖµ
-**names**£ºÓµÓÐ´ËÒôËØµÄÓ¢ÎÄÃû£¬×¢ÒâÕâÀïÃæµÄÓ¢ÎÄÃûµÄ³öÏÖË³ÐòÊÇ°´ÕÕÃ¿¸öÓ¢ÎÄÃûµÄpeakÖµµ¹Ðð
-**percents**£ºÕâ¸öÖµÎª´ËÒôËØÔÚ¶ÔÓ¦µÄÄê·Ý³öÏÖµÄ°Ù·Ö±È£¬¼ÆËã·½Ê½Îª£ºnamesÖÐËùÓÐÓ¢ÎÄÃûÔÚ´ËÄê·ÝµÄpercentsÖµÀÛ¼Ó¡£
+çœç•¥éƒ¨åˆ†æ•°æ®ï¼Œæ­¤æ–‡ä»¶æ˜¯æ ¹æ®éŸ³ç´ ç”Ÿæˆå¯¹åº”çš„è‹±æ–‡åå’Œå¯¹åº”çš„å‡ºçŽ°è¯„çŽ‡
+
+**phoneme**ï¼šéŸ³ç´ å€¼
+
+**names**ï¼šæ‹¥æœ‰æ­¤éŸ³ç´ çš„è‹±æ–‡åï¼Œæ³¨æ„è¿™é‡Œé¢çš„è‹±æ–‡åçš„å‡ºçŽ°é¡ºåºæ˜¯æŒ‰ç…§æ¯ä¸ªè‹±æ–‡åçš„peakå€¼å€’å™
+
+**percents**ï¼šè¿™ä¸ªå€¼ä¸ºæ­¤éŸ³ç´ åœ¨å¯¹åº”çš„å¹´ä»½å‡ºçŽ°çš„ç™¾åˆ†æ¯”ï¼Œè®¡ç®—æ–¹å¼ä¸ºï¼šnamesä¸­æ‰€æœ‰è‹±æ–‡ååœ¨æ­¤å¹´ä»½çš„percentså€¼ç´¯åŠ ã€‚
 
 
