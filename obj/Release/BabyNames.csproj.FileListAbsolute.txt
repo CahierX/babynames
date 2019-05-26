@@ -1,0 +1,2 @@
+E:\编程\BabyNames\BabyNames\obj\Release\BabyNames.csprojAssemblyReference.cache
+E:\编程\BabyNames\BabyNames\obj\Release\BabyNames.csproj.CoreCompileInputs.cache
